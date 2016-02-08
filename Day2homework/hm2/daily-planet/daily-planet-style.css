@@ -17,11 +17,19 @@ section {
 }
 aside {
     width: 20%;
+    border: 2px, black, solid;
+    text-align: center;
 }
 
 footer {
     clear: both;
-}
-header{
     text-align: center;
+    border-color: black;
+    border-width: thick;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: left;
 }
