@@ -1,18 +1,20 @@
 body {
     width: 75%;
     margin: 0 auto;
+    background-color:;
 }
 
-header, nav, main, section, aside, footer {
+header, nav, main, section, section2, aside, footer {
     padding: 5px;
     margin-top: 10px;
+    border:black, 2px, solid;
 }
 
-section, aside {
+section, section2, aside {
     float: left;
 }
 
-section {
+section, section2{
     width: 70%
 }
 aside {
@@ -24,11 +26,11 @@ aside {
 footer {
     clear: both;
     text-align: center;
-    border-color: black;
-    border-width: thick;
+    border: 8px, solid;
 }
 h1{
     text-align: center;
+    border: 2px, solid, black;
 }
 h3{
     text-align: left;
