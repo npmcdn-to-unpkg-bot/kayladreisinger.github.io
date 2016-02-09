@@ -7,7 +7,7 @@ body {
 header, nav, main, section, section2, aside, footer {
     padding: 5px;
     margin-top: 10px;
-    border:black, 2px, solid;
+    border:2px, solid;
 }
 
 section, section2, aside {
