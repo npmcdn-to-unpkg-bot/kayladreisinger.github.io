@@ -1,10 +1,14 @@
 
+
+body{
+    margin:auto;
+}
 #Image{
     height: 450px;
     width:850px;
-    margin:auto;
-    position:relative;
+    /*margin:auto;*/
     background-image: url(../img/nasa-background.jpg);
+    margin-bottom: 30px;
 }
 h1{
     font-weight: bold;
@@ -12,32 +16,30 @@ h1{
     color:white;
     font-size: 80px;
     vertical-align: middle;
-    margin-top: 200px;
+    line-height: 450px;
 }
 #one{
     width:270px;
     height: 324px;
-    background-color: red;
+    background-color: grey;
     float:left;
-    margin-right: 20px;
+    /*margin-right: 20px;*/
 }
 #two{
     width:270px;
     height: 324px;
-    background-color: mediumpurple;
+    background-color: grey;
     float: left;
-    margin-right: 20px;
+    /*margin-right: 20px;*/
+
 }
 #three{
     width:270px;
     height: 324px;
-    background-color: yellowgreen;
+    background-color: grey;
     float:left;
 }
 #message{
     height: 30px;
     width:240px;
-}
-body{
-    margin:auto;
 }
