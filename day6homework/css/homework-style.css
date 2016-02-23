@@ -1,0 +1,66 @@
+header{
+    text-align: center;
+    margin:100px;
+}
+div > a{
+    margin-left: 400px;
+    color:green;
+}
+.small{
+    
+}
+div{
+    float:left;
+    width:500px; 
+    margin-left: 100px;
+    background-color: lightgrey;
+}
+div > img{
+    margin:30px;
+    margin-bottom: 15px;
+}
+.small{
+    height: 100px;
+    width:200px;
+}
+.section{
+    float:right;
+}
+/*.float{
+    float:right;
+}
+.footer{
+    text-align: left;
+}*/
+keyboard{
+    margin-left: 20px;
+}
+section{
+    float:right;
+    background-color: lightgray;
+    width:50%;
+}
+section > article {
+    margin-bottom:50px;
+}
+footer{
+    clear:both;
+    
+}
+main{
+    margin-bottom: 400px;
+}
+footer > div {
+    width: 300px;
+    background-color: white;
+    padding:20px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid grey;
+    margin-left:50px;
+}
+#checkpricing{
+    margin-left:200px;
+    color:green;
+}
+
+
