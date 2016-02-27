@@ -87,3 +87,27 @@ nav a:hover {
 #about div:last-child img {
     width: 50%;
 }
+
+
+#history{
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url("../img/wine13.jpg") no-repeat top;
+    text-align: center;
+    color:white;
+    clear:both;
+    padding:150px 0px;
+}
+#history h3{
+    font-size:35px;
+    margin: 0px 40px;
+    font-style: italic;
+    font-weight: bold;
+}
+#history p{
+    margin:80px 40px;
+}
+
+#shiraz{
+    height: 50px;
+    width:100px;
+    background-color: red;
+}
