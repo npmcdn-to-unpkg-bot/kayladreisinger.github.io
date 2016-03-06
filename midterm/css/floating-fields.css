@@ -4,7 +4,8 @@
 }
 header{
     height: 50px;
-    /*background-color: #c10e02;*/
+    background-color: white;
+    position:fixed;
 }
 header h1{
     float:left;
@@ -32,19 +33,19 @@ header nav a:hover{
     background-size: cover;
     background-position:center;
     height: 500px;
-    /*opacity:0.6;*/
     background-color: #7f0000;
+    padding-top: 200px;
+    padding-left:225px;
 }
 #hero article{
-    background-color:#C6B383;
-    opacity: 0.6;
+    background-color:rgba(198, 179, 131, 0.5);
     text-align: center;
-    padding-bottom:204px;
+    padding:20px 0px;
+    width:800px;
 }
 #hero h2{
     font-size: 60px;
     text-transform: uppercase;
-    padding-top:150px;   
 }
 #hero p{
     font-size:30px;
@@ -63,38 +64,45 @@ header nav a:hover{
 #hero a:hover{
     background-color: #4B5320;
 }
-#welcome{
-    background-color: #4B5320;
-}
+
 .clear-fix:after{
     content:'';
     display:block;
     clear:both;
 }
 #welcome div{
-    margin: 70px 50px;
+    margin: 40px 50px 40px 30px;
 }
 #welcome #snake{
-    background-color: blue;
     float:left;
 }
 #welcome img{
-    width:350px;
-    height:400px;
+    width:300px;
+    height:350px;
+    border:8px solid #C6B383;
+    padding: 20px;
 }
 #welcome #about{
-    background-color:aqua;
     float:right;
-    width:716px;
+    width:700px;
     text-align: left;
+    border: 8px solid #C6B383;
+}
+#about p{
+    padding:0px 10px 10px 10px;
 }
 
 #about h3{
     font-size: 40px;
+    padding: 10px 0px;
+    text-align: center;
 }
 #team{
     background-color: #C6B383;
     text-align: center;
+    padding-left:70px;
+    padding-bottom:15px;
+
 }
 #team h4{
     font-size:40px;
@@ -102,29 +110,39 @@ header nav a:hover{
 }
 #team div{
     float:left;
-    width:250px;
-    margin:0px 15px;
+    width:20%;
+    margin-left: 30px;
+}
+#team div:first-child {
+    margin-left: 70px;
 }
 #team div h2{
     font-size: 20px;
     padding:10px 0px;
+    text-decoration: underline;
 }
-/*Why isn't this working?
-#team #kay{
-    padding-left: 70px;
-}*/
 #blog{
-    background-color:aquamarine;
+    background-color:rgb(102,0,0);
+    padding: 20px 20px;
+   /* padding:100px 0px;*/
 }
-#blog div{
+#blog .container{
     float:left;
+    width:50%;
+}
+#blog .container .picture img{
+    width: 500px;
+    height: 281px;
+    padding-left: 50px;
+}
+#blog .content{
+    background-color: rgba(198, 179, 131, 0.5);
     width:500px;
+    margin:10px 0px 0px 50px;
 }
-#blog div img{
-    height:243px;
-    width:432px;
-    align-content: center;
-}
+/*#blog .picture img{
+    width:100%;
+}*/
 #blog div h6{
     text-align: center;
 }
@@ -136,5 +154,25 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
-    height: 500px;
+    height: 400px;
+    padding-top:400px;
+}
+footer article{
+    background-color:rgba(198, 179, 131, 0.8);
+    text-align: center;
+    padding:20px 0px;
+    width:600px;
+    margin-left:350px;
+}
+footer article a{
+    text-decoration: none;
+    color:black;
+}
+footer article h6{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+footer article a:hover{
+    text-decoration: underline;
 }
