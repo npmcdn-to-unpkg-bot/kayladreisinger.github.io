@@ -1,0 +1,74 @@
+/*body{
+    width:80%;
+    margin:auto;
+}*/
+
+#welcome{
+    height: 500px;
+    background-color: #558811;
+}
+#welcome h1{
+    color:white;
+    font-size: 45px;
+    padding:200px 0px 0px 450px;
+}
+.clear-fix:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+#text{
+    background-color: black;
+}
+#text div{
+    float:left;
+    width:20%;
+    margin:100px 20px 100px 110px;
+    color:white;
+    text-align: center;
+}
+#text div:first-child{
+    border-top: 30px solid #FFFFEE;
+}
+/* Why didint this work???
+#text div:second-child{
+    border-top:30px solid #6700E5;
+}*/
+#text #purple{
+    border-top:30px solid #C699FF;
+}
+#text div:last-child{
+    border-top:30px solid #558811;
+}
+#text div h2{
+    font-size: 45px;
+    padding:10px 0px;
+}
+@media (max-width: 650px) {
+    #welcome{
+        background-color: #E2CCFF;
+        height: 300px;
+    }
+    #welcome h1{
+        padding:125px 100px 100px 140px;
+    }
+    #text{
+        padding-top:70px;
+        background-color: grey;
+    }
+    #text div{
+        float:none;
+        width:40%;
+        margin:0px 0px 10px 200px;
+        padding:30px 0px;
+    }
+    #text div:first-child{
+        border-top: 30px solid #E2CCFF;
+    }
+    #text #purple{
+            border-top: 30px solid #FFFFEE;
+    }
+    #text div:last-child{
+        border-top:30px solid #558811;
+    }
+}

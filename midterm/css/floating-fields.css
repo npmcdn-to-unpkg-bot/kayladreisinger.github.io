@@ -5,7 +5,7 @@
 header{
     height: 50px;
     background-color: white;
-    position:fixed;
+    /*position:fixed;*/
 }
 header h1{
     float:left;
@@ -14,6 +14,10 @@ header h1{
     font-size: 20px;
     padding: 10px 15px;
 }
+/*header p{
+    float: left;
+    clear:left;
+}*/
 header nav{
     float:right;
     font-size: 20px;
@@ -28,7 +32,7 @@ header nav a:hover{
     text-decoration: underline;
 }
 #hero{
-    background-image: url('../img/tractor-landscape.jpg');
+    background-image: url('../img/gb1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -75,11 +79,11 @@ header nav a:hover{
 }
 #welcome #snake{
     float:left;
+    margin-left:80px;
 }
 #welcome img{
-    width:300px;
-    height:350px;
     border:8px solid #C6B383;
+    border: 8px solid rgba(0,255,0,0.4);
     padding: 20px;
 }
 #welcome #about{
@@ -87,6 +91,7 @@ header nav a:hover{
     width:700px;
     text-align: left;
     border: 8px solid #C6B383;
+    border: 8px solid rgba(0,255,0,0.4);
 }
 #about p{
     padding:0px 10px 10px 10px;
@@ -95,8 +100,8 @@ header nav a:hover{
 #about h3{
     font-size: 40px;
     padding: 10px 0px;
-    text-align: center;
 }
+/*
 #team{
     background-color: #C6B383;
     text-align: center;
@@ -124,7 +129,14 @@ header nav a:hover{
 #blog{
     background-color:rgb(102,0,0);
     padding: 20px 20px;
-   /* padding:100px 0px;*/
+   /* padding:100px 0px;
+}*/
+/*
+#blog h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
 }
 #blog .container{
     float:left;
@@ -139,24 +151,51 @@ header nav a:hover{
     background-color: rgba(198, 179, 131, 0.5);
     width:500px;
     margin:10px 0px 0px 50px;
-}
+}*/
 /*#blog .picture img{
     width:100%;
 }*/
-#blog div h6{
+/*#blog div h6{
     text-align: center;
 }
 #blog div p{
     text-align:right;
-}
+}*/
 footer{
-    background-image: url('../img/sunrise.jpg');
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/prep-barn-nice.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
-    height: 400px;
-    padding-top:400px;
 }
+footer article{
+    float:left;
+    background-color:rgba(198, 179, 131, 0.5);
+    text-align: center;
+    width:300px;
+    margin:50px 0px 90px 70px;
+    padding: 20px 10px;
+}
+footer article h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+footer article img{
+    margin-top: 5px;
+    width:150px;
+}
+footer article a{
+    text-decoration: none;
+    color:black;
+}
+footer article a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.fa-instagram{
+    margin-left:10px;
+}
+/*
 footer article{
     background-color:rgba(198, 179, 131, 0.8);
     text-align: center;
@@ -175,5 +214,154 @@ footer article h6{
 }
 footer article a:hover{
     text-decoration: underline;
+}*/
+/* This is my css for the About HTML*/
+/* This is my css for the About HTML*/
+/* This is my css for the About HTML*/
+/* This is my css for the About HTML*/
+#miss-value{
+    background-image: url('../img/flower.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    /*height: 500px;*/
+    background-color: #7f0000;
+    /*padding-top: 200px;
+    padding-left:225px;*/
+    text-align: center;
+    padding-top: 30px;
+}
+#miss-value h2{
+    font-size: 45px;
+    background-color:rgba(0,255,0,0.4);
+    background-color:rgba(198, 179, 131, 0.5);
+    width:300px;
+    margin:0px 0px 30px 450px;
+}
+#miss-value div{
+    float:left;
+    width:30%;
+    background-color:rgba(0,255,0,0.4);
+    margin:80px 0px 80px 150px;
+}
+#miss-value #miss{       
+    padding:0px 5px 10px 5px;
+}
+#miss-value div h4{
+    font-size: 20px;
+    padding:10px 0px;
+}
+/*#who h6{
+    font-size: 45px;
+    text-align: center;
+    width:300px;
+    border:8px solid rgba(0,255,0,0.4);
+    margin:15px 425px;
+}*/
+#who div h5{
+    font-size:30px;
+    text-align: center;
+}
+#who p{
+    font-weight: bold;
+    font-size: 20px;
+}
+#who a{
+    text-decoration: none;
+    color:black;
+}
+#who a:hover{
+    text-decoration: underline;
+}
+#full-time{
+    border-bottom: 30px solid rgba(0,255,0,0.4);
+    border-top: 30px solid rgba(0,255,0,0.4);
+
+}
+#full-time article{
+    width:50%;
+    float:left;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#part-time{
+    background-color: rgba(0,255,0,0.4);
+    padding-bottom: 10px;
+}
+#part-time article{
+    float:left;
+    width:50%;
+    text-align: center;
+}
+/*This is My CSS for Kayla Dreisinger HTML*/
+/*This is My CSS for Kayla Dreisinger HTML*/
+/*This is My CSS for Kayla Dreisinger HTML*/
+/*This is My CSS for Kayla Dreisinger HTML*/
+#eyes{
+    background-image: url('../img/kaylaeyes.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    background-color: #7f0000;
+    
+}
+#eyes h6{
+    font-size:45px;
+    padding:150px 150px 150px 400px;
+    width:400px;
+    text-align: center;
+}
+#aboutkay{
+    background-color: rgba(0,255,0,0.4);
+    padding:50px;
+}
+#aboutkay p a{
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+}
+#aboutkay p a:hover{
+    text-decoration: underline;
+}
+#kayfav{
+    text-align: center;
+    border-bottom: 30px solid rgba(0,255,0,0.4);
+    margin-top: 20px;
+
+}
+#kayfav h6{
+    font-size: 30px;
+}
+#kayfav div{
+    float:left;
+    width:50%;
+}
+#kayfav p a{
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+}
+#kayfav p a:hover{
+    text-decoration: underline;
+}
+#kayfav div img{
+    height: 500px;
+}
+#kaywork div{
+    float:left;
+    text-align: center;
+    margin-top:30px;
+}
+#kaywork div img{
+    width:250px;
+    height:250px;
+    border: 5px solid rgba(0,255,0,0.4);
+}
+#kaywork div h6{
+    border-bottom: 5px solid rgba(0,255,0,0.4);
+    margin-bottom: 3px;
+}
+#kaywork div p:last-child{
+    padding-top:30px;
 }
 media screen and {max-width: 400px} 
