@@ -1,0 +1,51 @@
+#hero{
+    background-image: url('../img/bg.jpg'); background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+#hero div{
+    width:300px;
+    color:white;
+    padding:150px 0px 0px 100px;
+}
+#hero div img{
+    width:300px;
+}
+#hero h1{
+    
+}
+.clear-fix{
+    content:'';
+    display:block;
+    clear:both;
+}
+#text div{
+    float:left;
+    width:500px;
+    background-color: #D3D3D3;
+}
+#text div:first-child{
+    padding-left:130px;
+}
+#text div:last-child{
+    padding:0px 116px 20px 0px;;
+}
+@media (max-width: 640px) {
+    #hero{
+        background-image: url('../img/bg2.jpg');
+    }
+    #text div{
+        padding:0px;
+        background-color: #D3D3D3;
+        width:100%;
+        float:none;
+    }
+    #text div:first-child{
+        padding:10px 0px 10px 0px;;
+    }
+    #text div:last-child{
+        padding-top:10px;
+        padding-right:0px;
+    }
+}

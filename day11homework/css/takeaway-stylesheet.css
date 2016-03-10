@@ -1,0 +1,46 @@
+#hero{
+    background-image: url('../img/sub_header_home.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:200px 0px 200px 400px;
+    color:white;
+    margin-bottom: 30px;
+}
+.clearfix{
+    content:'';
+    display: block;
+    clear: both;
+}
+#hero p{
+    padding-left:50px;
+}
+#search div{
+    float:left;
+    text-align: center;
+    /*background-color: aqua;*/
+    width:25%;
+}
+@media (min-width: 768px) and (max-width: 991px){ 
+    #hero{
+        padding:150px 0px 230px 200px;
+        margin-bottom: 30px;
+    }
+    #search div{
+        float:left;
+        width:50%;
+    }
+}
+@media (max-width: 767px){
+    #hero{
+        padding:100px;
+        text-align: center;
+    }
+    #hero p{
+        padding:0px;
+    }
+    #search div{
+        float:none;
+        width:100%;
+    }
+}
