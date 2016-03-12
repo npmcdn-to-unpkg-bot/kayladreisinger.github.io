@@ -364,4 +364,78 @@ footer article a:hover{
 #kaywork div p:last-child{
     padding-top:30px;
 }
+/*CSS for BLOG html*/
+/*CSS for BLOG html*/
+/*CSS for BLOG html*/ 
+/*CSS for BLOG html*/
+#blogtitle{
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bunkhouse-sunset.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+#blogtitle h4{
+    font-size:45px;
+    padding:150px 0px 150px 300px;
+    color:white;
+}
+#blog{
+    float:left;
+    margin:20px;
+}
+#blog a{
+    text-decoration: none;
+    color:black;
+}
+#blog a:hover{
+    text-decoration: underline;
+    background-color: lightgray;
+}
+#blog article{
+    border: 5px black solid;
+    margin-top:5px;
+    padding:10px 5px 5px 20px;
+    width:800px;
+}
+#blog article h4{
+    font-size:20px;
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+#blog article div{
+    float:left;
+    width:30%;
+    text-align: center;
+}
+.blogpic{
+    margin-left:200px;
+}
+#blog article div img{
+    width:200px;
+    border: 5px solid rgba(0,255,0,0.4);
+}
+#blog article h6{
+    text-align: right;
+    clear:both
+}
+aside{
+    float:right;
+    border:5px solid rgba(0,255,0,0.4);
+    text-align: center;
+    margin:20px 20px 20px 0px;
+}
+aside h5{
+    font-size: 20px;
+    font-weight: bold;
+    margin:10px;
+}
+aside div{
+    padding:0px 10px 10px 10px;
+}
+
+
+
 media screen and {max-width: 400px} 
