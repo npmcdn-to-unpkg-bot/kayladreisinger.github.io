@@ -39,13 +39,13 @@ header nav a:hover{
     height: 500px;
     background-color: #7f0000;
     padding-top: 200px;
-    padding-left:225px;
+    padding-left:350px;
 }
 #hero article{
     background-color:rgba(198, 179, 131, 0.5);
     text-align: center;
     padding:20px 0px;
-    width:800px;
+    width:600px;
 }
 #hero h2{
     font-size: 60px;
@@ -74,6 +74,32 @@ header nav a:hover{
     display:block;
     clear:both;
 }
+/*.homepage{
+    margin: 40px 50px 40px 30px;
+}
+.homepage h3{
+    font-size: 40px;
+    padding: 10px 0px;
+}
+.homepage p{
+    padding:0px 10px 10px 10px;
+}
+.homepage-text{
+    float:right;
+    width:700px;
+    text-align: left;
+    border: 8px solid #C6B383;
+    border: 8px solid rgba(0,255,0,0.4);
+}
+.homepage-img{
+    float:left;
+    margin-left:80px;
+}
+.homepage img{
+    border:8px solid #C6B383;
+    border: 8px solid rgba(0,255,0,0.4);
+    padding: 20px;
+}*/
 #welcome div{
     margin: 40px 50px 40px 30px;
 }
@@ -98,6 +124,39 @@ header nav a:hover{
 }
 
 #about h3{
+    font-size: 40px;
+    padding: 10px 0px;
+    text-align: center;
+}
+#farmstand{
+    background-color: rgba(0,255,0,0.4);
+}
+#comegrow{
+    float:left;
+    width:500px;
+    text-align: left;
+    border: 8px solid #C6B383;
+    border: 8px solid rgba(0,255,0,0.9);
+    margin:40px 0px 40px 80px;
+    text-align: center;
+    padding: 10px;
+}
+#comegrow a{
+    color:black;
+}
+#comegrow a:hover{
+    font-weight: bold;
+}
+#teamphoto{
+    float:right;
+    margin:40px 80px 40px 0px;
+}
+#teamphoto img{
+    border:8px solid #C6B383;
+    border: 8px solid rgba(0,255,0,0.9);
+    padding: 20px;
+}
+#farmstand h3{
     font-size: 40px;
     padding: 10px 0px;
 }
@@ -230,8 +289,9 @@ footer article a:hover{
     padding-left:225px;*/
     text-align: center;
     padding-top: 30px;
+    height: 325px;
 }
-#miss-value h2{
+/*#miss-value h2{
     font-size: 45px;
     background-color:rgba(0,255,0,0.4);
     background-color:rgba(198, 179, 131, 0.5);
@@ -250,7 +310,7 @@ footer article a:hover{
 #miss-value div h4{
     font-size: 20px;
     padding:10px 0px;
-}
+}*/
 /*#who h6{
     font-size: 45px;
     text-align: center;
@@ -258,13 +318,177 @@ footer article a:hover{
     border:8px solid rgba(0,255,0,0.4);
     margin:15px 425px;
 }*/
-#who div h5{
+#mission{
+    background-color: rgba(0,255,0,0.4);
+    text-align: center;
+}
+#mission article{
+    width:800px;
+    padding:50px 10px;
+    margin:0px 225px;
+}
+#mission h5{
+    font-size:30px;
+}
+#mission p{
+    padding:0px 30px;
+}
+/* THIS IS THE BEGGINNING OF CODE IMPORT!!!!!*/
+/* THIS IS THE BEGGINNING OF CODE IMPORT!!!!!*/
+/* THIS IS THE BEGGINNING OF CODE IMPORT!!!!!*/
+/* THIS IS THE BEGGINNING OF CODE IMPORT!!!!!*/
+#history{
+    width: 800px;
+    margin:20px 220px;
+}
+#timeline h1{
     font-size:30px;
     text-align: center;
 }
-#who p{
+.timeline {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+}
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 3px;
+  background-color: #eeeeee;
+  left: 50%;
+  margin-left: -1.5px;
+}
+.timeline > li {
+  margin-bottom: 20px;
+  position: relative;
+}
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li > .timeline-panel {
+  width: 46%;
+  float: left;
+  border: 1px solid #d4d4d4;
+  border-radius: 2px;
+  padding: 20px;
+  position: relative;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+.timeline > li > .timeline-panel:before {
+  position: absolute;
+  top: 26px;
+  right: -15px;
+  display: inline-block;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #ccc;
+  border-right: 0 solid #ccc;
+  border-bottom: 15px solid transparent;
+  content: " ";
+}
+.timeline > li > .timeline-panel:after {
+  position: absolute;
+  top: 27px;
+  right: -14px;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #fff;
+  border-right: 0 solid #fff;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
+.timeline > li > .timeline-badge {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  margin-left: -25px;
+  background-color: #999999;
+  z-index: 100;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+.timeline-badge.primary {
+  background-color: #2e6da4 !important;
+}
+.timeline-badge.success {
+  background-color: #3f903f !important;
+}
+.timeline-badge.warning {
+  background-color: #f0ad4e !important;
+}
+.timeline-badge.danger {
+  background-color: #d9534f !important;
+}
+.timeline-badge.info {
+  background-color: #5bc0de !important;
+}
+.timeline-title {
+  margin-top: 0;
+  color: inherit;
+}
+.timeline-body > p,
+.timeline-body > ul {
+  margin-bottom: 0;
+}
+.timeline-body > p + p {
+  margin-top: 5px;
+}
+/*THIS IS THE END OF CODE IMPORT!!!*/
+/*THIS IS THE END OF CODE IMPORT!!!*/
+/*THIS IS THE END OF CODE IMPORT!!!*/
+/*THIS IS THE END OF CODE IMPORT!!!*/
+#who h5{
+    font-size:30px;
+    text-align: center;
+    /*background-color: rgba(0,255,0,0.4);*/
+    padding:10px;
+}
+#who img{
+    width: 200px;
+    height: 200px;
+}
+#who h6{
     font-weight: bold;
     font-size: 20px;
+    padding: 10px;
 }
 #who a{
     text-decoration: none;
@@ -274,15 +498,27 @@ footer article a:hover{
     text-decoration: underline;
 }
 #full-time{
-    border-bottom: 30px solid rgba(0,255,0,0.4);
-    border-top: 30px solid rgba(0,255,0,0.4);
-
+    border:5px solid rgba(0,255,0,0.4);
+    width:800px;
+    margin:30px 250px;
+    padding: 10px;
 }
 #full-time article{
-    width:50%;
-    float:left;
-    text-align: center;
     padding-bottom: 20px;
+}
+#full-time article img{
+    float:left;
+}
+#full-time article div{
+    float:right;
+    width:550px;
+    text-align: center;
+}
+#full-time h6{
+    border-bottom:10px dotted black;
+}
+#full-time p{
+    padding-top: 10px;
 }
 #part-time{
     background-color: rgba(0,255,0,0.4);
@@ -290,8 +526,8 @@ footer article a:hover{
 }
 #part-time article{
     float:left;
-    width:50%;
     text-align: center;
+    padding-left: 40px;
 }
 /*This is My CSS for Kayla Dreisinger HTML*/
 /*This is My CSS for Kayla Dreisinger HTML*/
