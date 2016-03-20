@@ -12,7 +12,6 @@
     margin: 0 auto;
 }
 aside{
-    float:left;
     position:fixed;
     z-index: 10;
 }
@@ -59,6 +58,9 @@ aside div nav a:hover{
 #icons a:hover{
     color:black;
 }
+#push{
+    margin-left:213px;
+}
 #hero{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/welcomefall.jpg');
     background-position: center;  
@@ -79,19 +81,24 @@ aside div nav a:hover{
 }
 #intro{
     background-color: aquamarine;
-    float:right;
+    padding:10px 500px 10px 0px;
+}
+#intro div{
+    background-color: rgba(63,63,63,0.5);
+    text-align: center;
+    border:2px solid black;
+    padding:20px;
 }
 #intro h5{
-    font-size:30px;
-    margin:10px 300px 10px 0px;
+    font-size:30px; 
 }
 #pictures{
-    float:right;
     background-color: rgb(255,255,102);
 }
 #pictures div img{
     padding:10px;
     border:3px solid black;
+    display:block;
 }
 #top-pics{
     margin:10px;
@@ -137,6 +144,50 @@ aside div nav a:hover{
     width:300px;
     height: 400px;
 }
+.squareimagewrap{
+	overflow: hidden;
+	position: relative;
+	width: 240px;
+}
+.squareimgdescription{
+    background: rgba(0,0,0,0.8);
+	color: white;
+	display: block;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 100;
+    width: 240px;
+}
+.squareimgwrap .squareimgdescription:hover{
+    opacity: 1;
+    z-index: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: block;
+    background: rgba(0,0,0,0.8);
+
+}
+/*
+.imgdescription{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+}
+.imgwrap .imgdescription:hover{
+    visibility: visible;
+    opacity: 1;
+}
 /*#bottom-pics{
     margin: 10px;
 }
@@ -157,8 +208,6 @@ aside div nav a:hover{
     width:500px;
 }*/
 #family{
-    clear:both;
-    float:right;
     background-image: url('../img/about/cugrad.jpg');
     background-attachment: scroll;
 }
@@ -172,7 +221,6 @@ aside div nav a:hover{
 }
 #explanation{
     clear:both;
-    float:right;
     background: purple;
 }
 #explanation article{
@@ -182,4 +230,9 @@ aside div nav a:hover{
     border:2px solid black;
     padding:10px;
     margin:50px;
+}
+
+
+@media (max-width: 650px){
+   
 }
