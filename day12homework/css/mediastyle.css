@@ -1,0 +1,83 @@
+h3{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    padding:150px;
+}
+#welcome{
+    background-color: lightseagreen;
+}
+#awesome{
+    background-color: black;
+}
+#title{
+    background-color: dodgerblue;
+        
+}
+.clear-fix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#title div{
+    float:left;
+    width:15%;
+    text-align: center;
+    margin:50px 0px 50px 100px;
+}
+#title div h5{
+    font-size: 35px;
+    color:white;
+}
+#title div p{
+    color:white;
+}
+#black{
+    border-top: 30px solid black;
+}
+#orange{
+    border-top: 30px solid orange;
+}
+#green{
+    border-top: 30px solid green;
+}
+#white{
+    border-top: 30px solid white;
+}
+
+@media (max-width: 650px){
+    #welcome{
+        float:left;
+        width: 50%;
+    }
+    #welcome h3{
+        padding:50px 10px 102px 10px;
+    }
+    #awesome{
+        float:right;
+        width:50%;
+    }
+    #awesome h3{
+        padding:50px 10px;
+    }
+    #title{
+        clear:both;
+    }
+    #title div{
+        margin:20px;
+        float:none;
+        width: 30%;
+    }
+    #title #top #black{
+        float:left;
+    }
+    #title #top #orange{
+        float:right;
+    }
+    #title #bottom #green{
+        float: left;
+    }
+    #title #bottom #white{
+        float:right;
+    }
+    
