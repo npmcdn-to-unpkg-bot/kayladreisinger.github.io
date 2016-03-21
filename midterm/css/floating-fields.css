@@ -50,6 +50,8 @@ header nav a:hover{
 #hero h2{
     font-size: 60px;
     text-transform: uppercase;
+    font-family: 'indie flower', cursive;
+    font-weight: bold;
 }
 #hero p{
     font-size:30px;
@@ -131,6 +133,10 @@ header nav a:hover{
 #farmstand{
     background-color: rgba(0,255,0,0.4);
 }
+#farmstand h6{
+    font-size: 20px;
+    font-weight: bold;
+}
 #comegrow{
     float:left;
     width:500px;
@@ -160,6 +166,7 @@ header nav a:hover{
     font-size: 40px;
     padding: 10px 0px;
 }
+
 /*
 #team{
     background-color: #C6B383;
