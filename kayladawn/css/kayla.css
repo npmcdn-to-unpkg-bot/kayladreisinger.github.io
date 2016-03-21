@@ -209,7 +209,9 @@ aside div nav a:hover{
 }*/
 #family{
     background-image: url('../img/about/cugrad.jpg');
+    background-repeat: no-repeat;
     background-attachment: scroll;
+    padding: 100px 20px;
 }
 #family article{
     background-color: rgba(63,63,63,0.5);
