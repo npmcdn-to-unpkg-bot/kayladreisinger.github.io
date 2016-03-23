@@ -1,0 +1,14 @@
+#hero{
+    background-image: url('../img/sub_header_home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hero article{
+    color:white;
+    text-align: center;
+    margin:200px 0px;
+}
+#icons article{
+    text-align: center;
+    margin: 20px 0px;
+}
