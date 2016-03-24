@@ -1,0 +1,22 @@
+#hero{
+    background-image: url('../img/desk.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#hero h1{
+    padding-bottom: 300px;
+    padding-top:100px;
+    text-align: center;
+}
+#pics{
+    margin:20px;
+}
+.rectdiv img:nth-child(2){
+    margin-top: 25px;
+}
+.rect{
+    height: 265px;
+}
+.price{
+    
+}
