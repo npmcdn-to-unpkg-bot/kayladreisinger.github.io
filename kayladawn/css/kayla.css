@@ -60,6 +60,8 @@ aside div nav a:hover{
 }
 #push{
     margin-left:213px;
+    width: 1050px;
+    background-color:  rgb(255,255,102);
 }
 #hero{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/welcomefall.jpg');
@@ -78,9 +80,9 @@ aside div nav a:hover{
 }
 #hero article h3{
     font-size:45px;
+    color: white;
 }
 #intro{
-    background-color: aquamarine;
     padding:10px 500px 10px 0px;
 }
 #intro div{
@@ -88,20 +90,22 @@ aside div nav a:hover{
     text-align: center;
     border:2px solid black;
     padding:20px;
+    width: 400px;
+    margin-left: 300px;
 }
 #intro h5{
     font-size:30px; 
 }
-#pictures{
+/*#pictures{
     background-color: rgb(255,255,102);
-}
+}*/
 #pictures div img{
     padding:10px;
     border:3px solid black;
     display:block;
 }
 #top-pics{
-    margin:10px;
+    margin:10px 10px 10px 50px;
 }
 #top-pics div{
     float:left;
@@ -144,7 +148,7 @@ aside div nav a:hover{
     width:300px;
     height: 400px;
 }
-.squareimagewrap{
+/*.squareimagewrap{
 	overflow: hidden;
 	position: relative;
 	width: 240px;
@@ -171,7 +175,7 @@ aside div nav a:hover{
     display: block;
     background: rgba(0,0,0,0.8);
 
-}
+}*/
 /*
 .imgdescription{
     position:absolute;
@@ -210,31 +214,61 @@ aside div nav a:hover{
 #family{
     background-image: url('../img/about/cugrad.jpg');
     background-repeat: no-repeat;
-    background-attachment: scroll;
     padding: 100px 20px;
+    margin-left: 50px;
+    border:5px solid black;
+    width: 920px;
 }
 #family article{
-    background-color: rgba(63,63,63,0.5);
+    background-color: rgba(63,63,63,0.9);
     text-align: center;
-    width:900px;
+    width:400px;
     border:2px solid black;
     padding:10px;
-    margin:50px;
+    margin:0px 50px 100px 221px;
+    color: white;
 }
 #explanation{
     clear:both;
-    background: purple;
+    background-image: url("../img/havasu.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding:50px 50px 260px 50px;
+    border:5px solid black;
+    width: 860px;
+    margin-left:  50px;
 }
 #explanation article{
-    background-color: rgba(63,63,63,0.5);
+    background-color: rgba(63,63,63,0.9);
     text-align: center;
-    width:900px;
+    width:800px;
     border:2px solid black;
     padding:10px;
-    margin:50px;
+    color: white;
 }
-
-
-@media (max-width: 650px){
-   
+#toes{
+    background: url('../img/toes.jpg');
+    background-position: center;  
+    background-size: cover;
+    float:right;
+    padding: 100px 269px 500px 269px;
+}
+#toes article{
+    background-color: rgba(63,63,63,0.9);
+    text-align: center;
+    padding: 10px;
+    width: 500px;
+    border:2px solid black;
+}
+#toes article p{
+    color: white;
+}
+#toes article a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#toes article a:hover{
+    text-decoration: underline;
 }
