@@ -1,0 +1,25 @@
+.container{
+    background-color: #ccc;
+}
+/*div{
+    height: 180px;
+}*/
+.yellow-back{
+    background-color: yellow;
+    height: 520px;
+}
+#reward{
+    margin: 60px;
+}
+#text{
+    background-color: purple;
+    padding: 20px 20px 40px 20px;
+    margin-top: 20px;
+    height: 250px;
+}
+#two-img img:nth-child(2){
+    margin-top: 20px;
+}
+#numerodos{
+    margin-top: 30px;
+}

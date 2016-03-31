@@ -3,8 +3,25 @@
     background-position: center;
     background-size: cover;
 }
+#est img{
+    width: 200px;
+}
 #man{
     background-image: url('../img/man-sil.jpg');
     background-position: center;
     background-size: cover;
+}
+#producing{
+    background-image: url('../img/yellow-basket.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#wine-bottles img{
+    width: 200px;
+}
+#awards img{
+    width: 200px;
+}
+footer{
+    background-color: dimgrey;
 }
