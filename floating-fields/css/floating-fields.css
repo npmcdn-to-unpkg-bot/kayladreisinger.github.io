@@ -1,0 +1,125 @@
+main{
+    margin-top: 50px;
+}
+.navbar-default{
+    background-color: aqua;
+}
+#hero{
+    background-image: url('../img/gb1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 500px;
+    background-color: #7f0000;
+}
+#hero article{
+    background-color:rgba(211, 211, 211, 0.5);
+    text-align: center;
+    margin-top: 150px;
+}
+#hero article h1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 65px;
+    font-weight: bold;
+}
+#hero article h3{
+    font-size: 30px;
+}
+.main-section{
+    margin: 15px 0px 15px 0px;
+}
+#logo{
+    align-content: center;
+}
+.welcome-img{
+    width: 400px;
+}
+.subtitle{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#farmstand #pretty{
+    height: 400px;
+    align-content: center;
+}
+#farmstand-text{
+    text-align: center;
+}
+#farmstand-text h6{
+    font-weight: bold;
+}
+#mission{
+    text-align: center;
+    padding: 140px 0px;
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bunkhouse-sunset.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+#mission article{
+    color: white;
+}
+#kyle h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+/*Team Style*/
+#full-time{
+    background-color: rgba(0,255,0,0.4);
+}
+#full-time img{
+    width: 200px;
+    margin-bottom: 5px;
+}
+.team {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.team h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+#wwoof img{
+    width: 200px;
+}
+#wwoof h6{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#wwoof h5{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*Footer Style*/
+footer{
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/prep-barn-nice.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    padding: 0px;
+}
+footer div{
+    padding: 50px 0px;
+}
+footer article{
+    background-color:rgba(198, 179, 131, 0.5);
+    text-align: center;
+    padding: 0px;
+}
+footer article h5{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+footer article img{
+    margin-top: 5px;
+    width:150px;
+}
