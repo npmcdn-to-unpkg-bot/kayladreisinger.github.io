@@ -1,0 +1,14 @@
+.top-space{
+    margin-top: 30px;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0px;
+    font-weight: bold;
+}
+h2{
+    color:purple;
+    font-size: 20px;
+    margin: 20px;
+}

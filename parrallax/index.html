@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        img{
+            width: 100%
+        }
+        ul{
+            width: 80%;
+            padding: 0px;
+            margin:0 auto;
+        }
+    </style>
+    <title>Parrallax</title>
+</head>
+
+<body>
+    <header>
+        <nav></nav>
+    </header>
+    <main>
+        <ul id="scene" data-scalar-y="false" data-invert-x="false"
+>
+            <li class="layer" data-depth="0.00"><img src="images/sky.png"/></li>
+            <li class="layer" data-depth="0.50"><img src="images/godzilla.png"/> </li>
+            <li class="layer" data-depth="1.00"><img src="images/austin.png"/></li>
+        </ul>
+    </main>
+    <footer></footer>
+    
+    <!--Parralax-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/parallax/2.1.3/parallax.min.js"></script>
+    <script>
+        var scene = document.getElementById('scene');
+        var parallax = new Parallax(scene);
+    </script>
+    <!--OR
+    <script>
+        var scene = document.getElementById('scene');
+        var parallax = new Parallax(scene,
+                                   {scalar-y="false"
+                                   
+                                   });
+    </script>-->
+</body>
+
+</html>
